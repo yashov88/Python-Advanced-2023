@@ -1,15 +1,15 @@
 from collections import deque
 
 people = deque()
-
 water_quantity = int(input())
-
 name = input()
+
 while name != "Start":
     people.append(name)
     name = input()
 
 command = input()
+
 while command != "End":
     data = command.split()
     if len(data) == 1:
