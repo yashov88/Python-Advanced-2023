@@ -1,7 +1,7 @@
 from collections import deque
 
-cups = deque([int(cup) for cup in input().split()])
-bottles = deque([int(bottle) for bottle in input().split()])
+cups = deque([int(c) for c in input().split()])
+bottles = deque([int(b) for b in input().split()])
 
 wasted_liters = 0
 

@@ -3,9 +3,9 @@ from datetime import datetime, timedelta
 
 robots = {}
 
-for rob in input().split(";"):
-    name, time_needed = rob.split("-")
-    robots[name] = [int(time_needed), 0]
+for robot in input().split(';'):
+    name, time_process = robot.split("-")
+    robots[name] = [int(time_process), 0]
 
 factory_time = datetime.strptime(input(), "%H:%M:%S")
 products = deque()

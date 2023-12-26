@@ -4,9 +4,7 @@ green_window = int(input())
 free_window = int(input())
 
 total_cars = 0
-
 cars = deque()
-
 info = input()
 
 while info != "END":
