@@ -1,6 +1,6 @@
 from collections import deque
 
-clothes = deque([int(x)for x in input().split()])
+clothes = deque([int(x) for x in input().split()])
 rack_space = int(input())
 
 racks_counter = 1
