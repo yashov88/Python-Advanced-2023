@@ -11,6 +11,8 @@ for order in orders.copy():
         food -= order
     else:
         print(f"Orders left: {' '.join([str(x) for x in orders])}")
+        #print(f"Food needed: {food - sum(orders)}")
         break
 else:
     print("Orders complete")
+    #print(f"Food left: {food}")
