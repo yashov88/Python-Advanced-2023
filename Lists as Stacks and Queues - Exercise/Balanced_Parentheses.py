@@ -17,3 +17,4 @@ while parentheses:
             break
 else:
     print("YES")
+
