@@ -35,6 +35,5 @@ for _ in range(int(input())):
     number_data = [int(x) for x in input().split()]
     map_functions[number_data[0]](number_data)
 
-
 numbers.reverse()
 print(*numbers, sep=', ')
