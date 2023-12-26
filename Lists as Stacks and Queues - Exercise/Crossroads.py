@@ -3,8 +3,9 @@ from collections import deque
 green_window = int(input())
 free_window = int(input())
 
-total_cars = 0
 cars = deque()
+total_cars = 0
+
 info = input()
 
 while info != "END":

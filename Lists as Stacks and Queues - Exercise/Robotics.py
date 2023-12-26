@@ -8,6 +8,7 @@ for robot in input().split(';'):
     robots[name] = [int(time_process), 0]
 
 factory_time = datetime.strptime(input(), "%H:%M:%S")
+
 products = deque()
 
 while True:

@@ -20,4 +20,3 @@ else:
     print(f"Bottles: {' '.join(str(b) for b in bottles)}")
 
 print(f"Wasted litters of water: {wasted_liters}")
-
