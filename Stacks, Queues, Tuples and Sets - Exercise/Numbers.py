@@ -19,6 +19,12 @@ for _ in range(int(input())):
 print(*sorted(first), sep=", ")
 print(*sorted(second), sep=", ")
 
+
+# for _ in range(int(input())):
+#     first_command, second_command, *data = input().split()
+#
+#     command = first_command + " " + second_command
+#
 #     if command == "Add First":
 #         [first.add(int(el)) for el in data]
 #     elif command == "Add Second":
@@ -29,3 +35,7 @@ print(*sorted(second), sep=", ")
 #         [second.discard(int(el)) for el in data]
 #     else:
 #         print(first.issubset(second) or second.issubset(first))
+#
+#
+# print(*sorted(first), sep=", ")
+# print(*sorted(second), sep=", ")
