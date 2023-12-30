@@ -4,8 +4,8 @@ words = deque(input().split())
 
 colors = {"red", "yellow", "blue", "orange", "purple", "green"}
 req_colors = {
-    "orange": {"yellow", "red"},
-    "purple": {"red", "blue"},
+    "orange": {"red", "yellow"},
+    "purple": {"blue", "red"},
     "green": {"yellow", "blue"}
 }
 
