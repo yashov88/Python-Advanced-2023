@@ -14,9 +14,9 @@ for _ in range(n):
     matrix.append(inner_list)
 
 searched_symbol = input()
-positional = find_element_in_matrix(matrix, searched_symbol)
+position = find_element_in_matrix(matrix, searched_symbol)
 
-if positional:
-    print(positional)
+if position:
+    print(position)
 else:
     print(f"{searched_symbol} does not occur in the matrix")
