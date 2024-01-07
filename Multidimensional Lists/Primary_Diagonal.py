@@ -7,6 +7,7 @@ for _ in range(rows):
     matrix.append(inner_list)
 
 sum_diagonal = 0
+
 for idx in range(rows):
     sum_diagonal += matrix[idx][idx]
 

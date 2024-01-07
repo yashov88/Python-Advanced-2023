@@ -27,8 +27,9 @@
 # #     flatten.extend(list_el)
 #
 # print(flatten)
-#
-# matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+
+# matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]    #   Matrix Representation
 #
 # # for i in range(len(matrix)):
 # #     for j in range(len(matrix[i])):
