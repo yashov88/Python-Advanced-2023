@@ -1,6 +1,8 @@
 def check_indices(row1, col1, row2, col2):
     if matrix[row1][col1] > 0:
         matrix[row1][col1] -= matrix[row2][col2]
+    else:
+        matrix[row2][col2] -= matrix[row1][col1]
 
 
 rows = int(input())
